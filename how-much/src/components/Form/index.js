@@ -60,10 +60,10 @@ export default function Form({ navigation }) {
       <Text style={estilos.texto}>Categoria de gasto:</Text>
       <Picker selectedValue={nomeCategoria} onValueChange={handlePickerChange}>
         <Picker.Item label="Comida" value="Comida" />
-        <Picker.Item label="Alimentação" value="Alimentação" />
+        <Picker.Item label="Alimentação" value="Alimentacao" />
         <Picker.Item label="Lanche" value="Lanche" />
         <Picker.Item label="Moradia" value="Moradia" />
-        <Picker.Item label="Saúde" value="Saúde" />
+        <Picker.Item label="Saúde" value="Saude" />
         <Picker.Item label="Lazer" value="Lazer" />
         <Picker.Item label="Tecnologia" value="Tecnologia" />
       </Picker>
